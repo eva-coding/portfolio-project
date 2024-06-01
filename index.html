@@ -30,35 +30,39 @@
       src="https://kit.fontawesome.com/20de04642d.js"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Eva is a front-end engineer based in the UK, professionally trained in HTML, CSS, JavaScript, AI, APIs and Bootstrap."
+    />
+    <title>Front-End Developer - Eva Machova</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Homepage">
           <img
             src="images/portfolio logo.png"
             class="logo d-none d-md-block"
-            alt=""
+            alt="Eva Machova logo"
           />
           <img
             src="images/small portfolio logo.png"
-            alt=""
+            alt="Eva Machova small logo"
             class="logo d-block d-md-none"
           />
         </a>
         <ul>
-          <li>
-            <a href="/" class="active">Home</a>
+          <li class="active">
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Eva">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="Eva's Work">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Eva">Contact</a>
           </li>
         </ul>
       </nav>
@@ -68,14 +72,18 @@
       <h1>Eva Machova</h1>
       <h2 class="mb-5">A coding pro in the making based in the UK</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding">Contact me</a>
       </div>
     </div>
     <p class="text-center m-5">Here are some of my best projects</p>
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/poem generator.png" class="img-fluid" alt="" />
+          <img
+            src="images/poem generator.png"
+            class="img-fluid"
+            alt="AI Poem Generator preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -86,7 +94,12 @@
               the most! Just type in a word and let AI serenade you with a
               not-so-good poem.
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a
+              href="https://ai-poem-generator-by-eva.netlify.app/"
+              target="_blank"
+              class="btn btn-branding-outline"
+              >Give it a go</a
+            >
           </div>
         </div>
       </div>
@@ -99,16 +112,29 @@
               This World Clock app is all you need. Sure, you could just look at
               your watch, but this is more impressive.
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a
+              href="https://evas-world-clock-project.netlify.app/"
+              target="_blank"
+              class="btn btn-branding-outline"
+              >Give it a go</a
+            >
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/world clock.png" class="img-fluid" alt="" />
+          <img
+            src="images/world clock.png"
+            class="img-fluid"
+            alt="World clock preview"
+          />
         </div>
       </div>
       <div class="row">
         <div class="col d-none d-lg-block">
-          <img src="images/weather app.png" class="img-fluid" alt="" />
+          <img
+            src="images/weather app.png"
+            class="img-fluid"
+            alt="Weather App preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -118,36 +144,64 @@
               vibes at the same time. Check out the weather for the next few
               days and find a moment of calm in the nature.
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a
+              href="https://legendary-faun-801201.netlify.app/"
+              target="_blank"
+              class="btn btn-branding-outline"
+              >Give it a go</a
+            >
           </div>
         </div>
       </div>
-      <footer>
-        <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+      <footer class="container">
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
           <div>
-          <h4>Work Inquiry</h4>
-          <p>Let's work together</p>
+            <h3>Work Inquiry</h3>
+            <p>Let's work together</p>
           </div>
           <div>
-          <a href="" class="btn btn-branding mt-3">Get in touch</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Eva"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:eva.machova1997@gmail.com" class="email-link"
+          <a
+            href="mailto:eva.machova1997@gmail.com"
+            class="email-link"
+            title="Email Eva"
             >eva.machova1997@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.instagram.com/evcamachova" target="_blank">
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-          <a href="https://github.com/eva-coding" target="_blank">
+          <a
+            href="https://github.com/eva-coding"
+            target="_blank"
+            title="Github profile"
+          >
             <i class="fa-brands fa-github-alt"></i>
           </a>
-          <a href="https://www.linkedin.com/in/eva-machova/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/eva-machova/"
+            target="_blank"
+            title="LinkedIn profile"
+          >
             <i class="fa-brands fa-linkedin-in"></i>
           </a>
         </div>
+        <p class="text-center mt-5">
+          ✌️ This project was coded by Eva Machova, and it is
+          <a
+            href="https://github.com/eva-coding/portfolio-project"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
